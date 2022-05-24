@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+hr{
+    clear: both;
+}
+#header{
+    margin-bottom: 50px;
+}
+#header .text{
+    width: 1000px;
+    margin: auto;
+    padding-top: 50px;
+}
+#welcome {
+    display: inline-block;
+    float: left;
+}
+#welcome h1 span{
+    font-weight: lighter;
+}
+#header .text ul{
+    list-style-type: none;
+    float: right;
+}
+#header .text ul li{
+    float: left;
+    margin: 10px;
+}
+#header .text ul li .one{
+    color: #b9d1d9;
+}
+#body{
+    clear: both;
+    background: #b9d1d9;
+    height: 650px;
+}
+#body .info{
+    width: 1000px;
+    margin: auto;
+    padding-top: 50px;
+}
+#picture{
+    background: url("Filip Kraljevski matura 1.jpg");
+    width: 405px;
+    height: 561px;
+    display: inline-block;
+}
+#body .info .data{
+    display: inline-block;
+    float: right;
+    background: #f5f5f5;
+    border-radius: 5px;
+}
+#body .info .data ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#body .info .data ul li{
+    margin: 10px;
+}
+#body .education{
+    width: 1000px;
+    margin: auto;
+    padding-top: 50px;
+}
+#elementary{
+    float: left;
+    width: 500px;
+}
+#one{
+    display: inline-block;
+    background: url("lazo.jpg");
+    width: 190px;
+    height: 223px;
+    border-radius: 10px;
+    float: left;
+}
+#elementary .data{
+    text-align: center;
+    margin-top: 50px;
+    width: 300px;
+    float: left;
+}
+#elementary .data p span{
+    margin-left: 10px;
+}
+#high{
+    float: left;
+    width: 500px;
+}
+#two{
+    display: inline-block;
+    background: url("korcagin.jpg");
+    width: 196px;
+    height: 225px;
+    border-radius: 10px;
+    float: left;
+}
+#high .data{
+    text-align: center;
+    margin-top: 50px;
+    width: 300px;
+    float: left;
+}
+#high .data p span{
+    margin-left: 10px;
+}
+#footer{
+    clear: both;
+    background: #b9d1d9;
+    height: 650px;
+}
+#contact{
+    width: 1000px;
+    margin: auto;
+    padding-top: 50px;
+}
+#contact .data{
+    background: #f5f5f5;
+    border-radius: 10px;
+}
+#contact .data ul{
+    list-style-type: none;
+}
+#contact .data ul li{
+    padding: 20px;
+}
+#contact .data li h3{
+    display: inline-block;
+    margin-left: 10px;
+}
